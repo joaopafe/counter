@@ -15,14 +15,16 @@
     <div id="counter-display">0</div>
 
     <div id="counter-buttons">
-      <button id="more-one">+1</button>
-      <button id="more-ten">+10</button>
-      <button id="less-one">-1</button>
-      <button id="less-ten">-10</button>
+      <button id="more-one" onclick="updateCounterValue(1)">+1</button>
+      <button id="more-ten" onclick="updateCounterValue(10)">+10</button>
+      <button id="less-one" onclick="updateCounterValue(-1)">-1</button>
+      <button id="less-ten" onclick="updateCounterValue(-10)">-10</button>
     </div>
 
     <div id="reset">
-      <button id="reset-button">Zerar</button>
+      <button id="reset-button" onclick="resetCounterValue()">Zerar</button>
     </div>
+
+    <script src="/script.js"></script>
   </body>
 </html>
