@@ -50,6 +50,12 @@ body {
   border-radius: 3vh;
 }
 
+#more-one,
+#more-ten,
+#less-one {
+  margin-right: 2vh;
+}
+
 #reset {
   margin-top: 2vh;
 }
