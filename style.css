@@ -1,0 +1,81 @@
+@font-face {
+  font-family: Sensation;
+  src: url(./sansation/Sansation_Bold.ttf);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 36.85em;
+  font-family: Sensation;
+  background-color: #222222;
+}
+
+#application-title {
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 8vh;
+  padding: 2.5vh 6vh;
+  border-radius: 3vh;
+}
+
+#counter-display {
+  margin-top: 2vh;
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 12vh;
+  padding: 2vh 6vh;
+  border-radius: 3vh;
+  width: 28vh;
+  display: flex;
+  justify-content: center;
+}
+
+#counter-buttons {
+  margin-top: 2vh;
+}
+
+#more-one,
+#more-ten,
+#less-one,
+#less-ten {
+  border: none;
+  background-color: #2a2a2a;
+  color: white;
+  height: 13vh;
+  width: 18vh;
+  font-size: 8vh;
+  border-radius: 3vh;
+}
+
+#reset {
+  margin-top: 2vh;
+}
+
+#reset-button {
+  border: none;
+  background-color: #2a2a2a;
+  color: white;
+  height: 13vh;
+  width: 52vh;
+  font-size: 8vh;
+  border-radius: 3vh;
+}
+
+#more-one:hover,
+#more-ten:hover,
+#less-one:hover,
+#less-ten:hover,
+#reset-button:hover {
+  background-color: #343434;
+}
+
+#more-one:active,
+#more-ten:active,
+#less-one:active,
+#less-ten:active,
+#reset-button:active {
+  background-color: #454545;
+}
